@@ -1,0 +1,4 @@
+# required params
+assoc: 'mylab'   # name of your association
+
+# put your own params
