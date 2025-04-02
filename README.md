@@ -4,6 +4,7 @@ mamba activate nextflow
 DATE=$(date +%F)
 PREFIX="pipelinereport_${DATE}"
 
+```{bash}
 nextflow -log "reports/${PREFIX}_nextflow.log" \
     -c nextflow.config \
     run main.nf \
@@ -11,3 +12,4 @@ nextflow -log "reports/${PREFIX}_nextflow.log" \
     -params-file params/<PARAMS.yml> \
     -work-dir <WORKDIR> \
     -resume
+```
