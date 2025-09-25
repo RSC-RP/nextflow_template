@@ -14,7 +14,7 @@ running on Sasquatch.
 consider modifying the `workDir` or `cacheDir` directories if you want to have
 pipeline-specific directories.
 
-2. Edit `nextflow.config` to add the line `include "./conf/sasquatch.config"`
+2. Edit `nextflow.config` to add the line `includeConfig "./conf/sasquatch.config"`
 
 3. If using a params file to pass in parameters (highly recommended so you don't
 have to further edit `nextflow.config`) you can use `params/params.yml` as a
